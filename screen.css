@@ -98,3 +98,20 @@ footer {
     height: 20em;
   }
 }
+
+
+.navigation{
+  display: inline;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.nav{
+  font-size: 1em;
+  text-align: center;
+  color: #030130;
+  font-weight: bold;
+  color: #ffffff;
+}
