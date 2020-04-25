@@ -14,7 +14,10 @@ html {
   margin: 1em;
 }
 
-header {
+
+
+
+#travel header {
   background-image: url("bannerupdate.jpeg");
   background-size: cover;
   background-position: center;
@@ -23,7 +26,6 @@ header {
   max-width: 100%;
   height: 35em;
 }
-
 
 
 
