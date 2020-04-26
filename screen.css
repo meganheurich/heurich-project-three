@@ -10,10 +10,42 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   padding: .5em;
 	font-family: 'Quicksand', Helvetica, Arial, sans-serif;
-  background-color: #e0e0da;
+  background-color: #fafafa;
   margin: 1em;
 }
 
+
+#home header{
+  background-image: url("bannerphotos/headshot.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+  max-width: 100%;
+  height: 35em;
+}
+
+
+#resume header {
+  background-image: url("bannerphotos/iit.jpg");
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+  max-width: 100%;
+  height: 35em;
+}
+
+
+#career header {
+  background-image: url("bannerphotos/chicago.jpg");
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+  max-width: 100%;
+  height: 35em;
+}
 
 
 
@@ -99,7 +131,43 @@ footer {
 }
 
 @media screen and (min-height: 10em) {
-  header {
+  #home header {
+    background-image: url("bannerphotos/headshot.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
+    max-width: 100%;
+    height: 20em;
+  }
+}
+
+@media screen and (min-height: 10em) {
+  #resume header {
+    background-image: url("bannerphotos/iit.jpg");
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
+    max-width: 100%;
+    height: 20em;
+  }
+}
+
+@media screen and (min-height: 10em) {
+  #career header {
+    background-image: url("bannerphotos/chicago.jpg");
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
+    max-width: 100%;
+    height: 20em;
+  }
+}
+
+@media screen and (min-height: 10em) {
+  #travel header {
     background-image: url("bannerupdate.jpeg");
     background-size: cover;
     background-position: center;
