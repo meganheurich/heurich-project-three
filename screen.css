@@ -14,7 +14,7 @@ html {
   margin: 1em;
 }
 
-
+/*styles for banner photos on each page*/
 #home header{
   background-image: url("bannerphotos/headshot.jpeg");
   background-size: cover;
@@ -69,6 +69,17 @@ h1 {
   font-weight: bold;
   gird-row:6 / 7;
   color: #ffffff;
+}
+
+/*font color is black instead of white so it can be seen on home page*/
+#home h1{
+  font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+  font-size: 3.5em;
+  text-align: center;
+  color: #030130;
+  font-weight: bold;
+  gird-row:6 / 7;
+  color: #000000;
 }
 
 p {
@@ -130,6 +141,34 @@ footer {
   font-size: 1em;
 }
 
+
+/*styling for resume page- align left versus other pages centered*/
+#resume h2{
+  font-family: 'Noto Serif JP', Georgia, serif;
+  font-size: 1.3em;
+  text-align: left;
+  font-weight: bold;
+  color: #030130;
+  padding-bottom: 1%;
+  padding-top: 3%;
+}
+
+#resume ul{
+  font-family: 'Noto Serif JP', Georgia, serif;
+  padding-left: 4em;
+}
+
+#resume h3{
+  font-family: 'Noto Serif JP', Georgia, serif;
+  font-size: 1em;
+  text-align: left;
+  font-weight: bold;
+  color: #030130;
+  padding-left: 1.5em;
+  padding-bottom: 1em;
+}
+
+/*styles for hero banner for each page*/
 @media screen and (min-height: 10em) {
   #home header {
     background-image: url("bannerphotos/headshot.jpeg");
@@ -179,6 +218,8 @@ footer {
 }
 
 
+
+/*navigation styles*/
 .navigation{
   font-family: 'Noto Serif JP', Georgia, serif;
   display: inline;
@@ -214,7 +255,40 @@ a:hover {
   border-bottom: none;
 }
 
-a:active {
-  background: #265301;
-  color: #CDFEAA;
+
+
+/*navigation for home page- make font black so links can be read*/
+#home .navigation{
+  font-family: 'Noto Serif JP', Georgia, serif;
+  display: inline;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+  font-size: 1.5em;
+  outline: none;
+  text-decoration: none;
+}
+
+#home .nav{
+  text-align: center;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+}
+
+#home a:link {
+  color: #000000;
+}
+
+#home a:visited {
+  color: #000000;
+}
+
+#home a:focus {
+  border-bottom: none;
+}
+
+#home a:hover {
+  border-bottom: none;
 }
