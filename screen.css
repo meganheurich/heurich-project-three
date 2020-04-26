@@ -30,6 +30,7 @@ html {
 
 
 h1 {
+	font-family: 'Quicksand', Helvetica, Arial, sans-serif;
   font-size: 3.5em;
   text-align: center;
   color: #030130;
@@ -39,6 +40,7 @@ h1 {
 }
 
 p {
+  font-family: 'Noto Serif JP', Georgia, serif;
 	color: #030130;
   font-size: 1.5em;
 	padding-left: 1%;
@@ -56,6 +58,7 @@ main {
 }
 
 h2 {
+  font-family: 'Noto Serif JP', Georgia, serif;
 	font-size: 1.3em;
 	text-align: center;
   font-weight: bold;
@@ -73,6 +76,10 @@ img {
   padding-right: 1em;
 }
 
+ul {
+  font-family: 'Noto Serif JP', Georgia, serif;
+}
+
 figure {
   font-size: 1em;
   display: block;
@@ -80,11 +87,13 @@ figure {
 }
 
 figcaption {
+  font-family: 'Noto Serif JP', Georgia, serif;
   margin: 1em;
 }
 
 
 footer {
+  font-family: 'Noto Serif JP', Georgia, serif;
   text-align: center;
   font-size: 1em;
 }
@@ -103,6 +112,7 @@ footer {
 
 
 .navigation{
+  font-family: 'Noto Serif JP', Georgia, serif;
   display: inline;
   padding-left: 1em;
   padding-right: 1em;
