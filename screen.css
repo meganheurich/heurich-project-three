@@ -186,12 +186,35 @@ footer {
   padding-right: 1em;
   text-align: center;
   font-size: 1.5em;
+  outline: none;
+  text-decoration: none;
 }
 
 .nav{
+  text-align: center;
   font-size: 1em;
   text-align: center;
-  color: #030130;
   font-weight: bold;
   color: #ffffff;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:focus {
+  border-bottom: none;
+}
+
+a:hover {
+  border-bottom: none;
+}
+
+a:active {
+  background: #265301;
+  color: #CDFEAA;
 }
